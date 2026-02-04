@@ -1,0 +1,134 @@
+/* Common Styles */
+body 
+{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+hr 
+{ 
+    margin: 40px 0; 
+    border: 1px solid #eee; 
+}
+
+/* GRIDONE*/
+
+.gridOne 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #ccc;
+    background-color: lightgray;
+}
+
+/* GRIDTWO */
+
+.gridTwo 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.child-red 
+{ 
+    background-color: red; 
+}
+
+.child-blue 
+{ 
+    background-color: blue;; 
+}
+
+.child-yellow 
+{ 
+    background-color: yellow; 
+}
+
+/* GRIDTHREE*/
+
+.gridThree 
+{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.row-top 
+{
+     background-color: #ddd;
+}
+
+.row-bottom
+{
+    background-color: #bbb;
+}
+
+.row-bottom img 
+{
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+/* GRIDFOUR */
+.gridFour 
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    color: white;
+}
+
+#nestedGridContainer 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px dashed white;
+}
+
+/* GRIDFIVE*/
+
+.gridFive 
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px
+}
+
+#nestedImageGrid 
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#nestedImageGrid img 
+{
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* GRID SIX */
+
+.gridSix 
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.icon-box 
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.google-font-text 
+{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
