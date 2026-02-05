@@ -78,14 +78,13 @@ hr
     grid-template-rows: 1fr 1fr;
     width: 500px;
     background-color: green;
-    color: white;
+    color: black;
 }
 
 #nestedGridContainer 
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px dashed white;
 }
 
 /* GRIDFIVE*/
@@ -96,12 +95,14 @@ hr
     display: grid;
     grid-template-rows: auto auto; 
     width: 500px;
+    background-color: lightgray;
 }
 
 #nestedImageGrid 
 {
     display: grid;
-    grid-template-columns: 2fr 1fr; 
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px; 
 }
 
 #nestedImageGrid img 
@@ -120,6 +121,7 @@ hr
     width: 500px;
     background-color: lightgray;
     align-items: center;
+
 }
 
 .icon-box 
